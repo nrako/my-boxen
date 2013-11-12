@@ -4,9 +4,19 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-firefox
+  specs:
+    firefox (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -39,6 +49,11 @@ GITHUBTARBALL
     hub (1.0.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-iterm2
+  specs:
+    iterm2 (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -52,6 +67,11 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-opera
+  specs:
+    opera (0.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-phantomjs
@@ -95,7 +115,9 @@ GITHUBTARBALL
 
 DEPENDENCIES
   boxen (= 3.3.4)
+  chrome (= 1.1.0)
   dnsmasq (= 1.0.0)
+  firefox (= 1.1.0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
@@ -103,9 +125,11 @@ DEPENDENCIES
   homebrew (= 1.5.1)
   hub (= 1.0.3)
   inifile (= 1.0.0)
+  iterm2 (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
+  opera (= 0.3.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
