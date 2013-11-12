@@ -75,6 +75,15 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  # browsers
+  include firefox
+  include chrome
+  include chrome::canary
+  include chrome::chromium
+  include opera
+
+  include iterm2::stable
+
   # common, useful packages
   package {
     [

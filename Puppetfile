@@ -45,7 +45,7 @@ github "inifile",    "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",      "1.4.2"
 github "nodejs",     "3.3.0"
 github "openssl",    "1.0.0"
-github "phantomjs",  "2.0.2"
+# github "phantomjs",  "2.0.2"
 github "pkgconfig",  "1.0.0"
 github "repository", "2.2.0"
 github "ruby",       "6.7.2"
@@ -55,3 +55,8 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "firefox",    "1.1.0"
+gitnub "chrome",     "1.1.0"
+github "iterm2",     "1.0.0"
+github "opera",      "0.3.0"
