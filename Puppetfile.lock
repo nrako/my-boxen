@@ -44,6 +44,11 @@ GITHUBTARBALL
     git (1.2.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-github_for_mac
+  specs:
+    github_for_mac (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (1.0.0)
@@ -134,6 +139,11 @@ GITHUBTARBALL
     transmission (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
+
+GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
     virtualbox (1.0.9)
@@ -173,6 +183,7 @@ DEPENDENCIES
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
+  github_for_mac (= 1.0.1)
   go (= 1.0.0)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
@@ -194,6 +205,7 @@ DEPENDENCIES
   sublime_text_3 (= 1.0.1)
   sudo (= 1.0.0)
   transmission (= 1.0.0)
+  vim (= 1.0.5)
   virtualbox (= 1.0.9)
   wget (= 1.0.0)
   xquartz (= 1.1.0)
