@@ -19,6 +19,7 @@ class people::nrako::apps {
   #include vim
   include wget
   include nvm
+  include github_for_mac
 
   # virtualization
   include virtualbox
