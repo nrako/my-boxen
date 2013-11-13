@@ -69,49 +69,17 @@ node default {
   #include nodejs::v0_8
   #include nodejs::v0_10
 
-  # can't be installed without xquartz
   # default ruby versions
   #include ruby::1_8_7
   #include ruby::1_9_2
   #include ruby::1_9_3
-  #include ruby::2_0_0
-  
-  include nvm
-
-  # browsers
-  include firefox
-  include chrome
-  include chrome::canary
-  include opera
+  include ruby::2_0_0
 
   include iterm2::stable
   include licecap
   include skype
-  include mplayerx
-  include alfred
-  include wget
-  include transmission
-  include colloquy
-  include virtualbox
 
-  #include asciiio
-  #include appcleaner
-  #include brow http://blog.timschroeder.net/2013/04/15/Bring-Brow-to-Alfred/
-  #include dropbox
-  #https://github.com/boxen/puppet-dockutil
-  #include graphviz
-  #include heroku
-  #include onepassword
-  #include osx https://github.com/boxen/puppet-osx
-  #inlude openssl 
-  #include postgresapp
-  #include spotify
-  #include LudereSolutions/puppet-parallels
-
-  include sublime_text_3
-  include sublime_text_3::package_control
-
-  # common, useful packages
+  # common, useful brew packages
   package {
     [
       'ack',

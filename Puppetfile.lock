@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.1.0)
+    firefox (1.1.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -144,6 +144,11 @@ GITHUBTARBALL
     wget (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.1.0)
+
+GITHUBTARBALL
   remote: jozefizso/puppet-sublime_text_3
   specs:
     sublime_text_3 (1.0.1)
@@ -164,7 +169,7 @@ DEPENDENCIES
   chrome (= 1.1.0)
   colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
-  firefox (= 1.1.0)
+  firefox (= 1.1.4)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
@@ -191,4 +196,5 @@ DEPENDENCIES
   transmission (= 1.0.0)
   virtualbox (= 1.0.9)
   wget (= 1.0.0)
+  xquartz (= 1.1.0)
 

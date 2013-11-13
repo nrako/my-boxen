@@ -51,14 +51,14 @@ github "repository", "2.2.0"
 github "ruby",       "6.7.2"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
-#github "xquartz",    "1.1.0"
+github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
 github "nvm",        "1.0.0"
 
-github "firefox",    "1.1.0"
+github "firefox",    "1.1.4"
 github "chrome",     "1.1.0"
 github "opera",      "0.3.0"
 
@@ -72,6 +72,8 @@ github "wget",       "1.0.0"
 github "transmission", "1.0.0"
 github "colloquy",    "1.0.0"
 github "virtualbox", "1.0.9"
+github "vim",        "1.0.5"
+github "github_for_mac", "1.0.1"
 
 
 #github "dockutil",  "0.1.2"
