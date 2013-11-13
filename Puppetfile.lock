@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-alfred
+  specs:
+    alfred (1.1.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
@@ -7,6 +12,11 @@ GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-colloquy
+  specs:
+    colloquy (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
@@ -54,6 +64,16 @@ GITHUBTARBALL
     iterm2 (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-licecap
+  specs:
+    licecap (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-mplayerx
+  specs:
+    mplayerx (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -62,6 +82,11 @@ GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
     nodejs (3.3.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-nvm
+  specs:
+    nvm (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -94,14 +119,34 @@ GITHUBTARBALL
     ruby (6.7.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.6)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-xquartz
+  remote: boxen/puppet-transmission
   specs:
-    xquartz (1.1.0)
+    transmission (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.0)
+
+GITHUBTARBALL
+  remote: jozefizso/puppet-sublime_text_3
+  specs:
+    sublime_text_3 (1.0.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -114,8 +159,10 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
+  alfred (= 1.1.6)
   boxen (= 3.3.4)
   chrome (= 1.1.0)
+  colloquy (= 1.0.0)
   dnsmasq (= 1.0.0)
   firefox (= 1.1.0)
   foreman (= 1.0.0)
@@ -126,15 +173,22 @@ DEPENDENCIES
   hub (= 1.0.3)
   inifile (= 1.0.0)
   iterm2 (= 1.0.0)
+  licecap (= 1.0.0)
+  mplayerx (= 1.0.1)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
+  nvm (= 1.0.0)
   openssl (= 1.0.0)
   opera (= 0.3.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.7.2)
+  skype (= 1.0.6)
   stdlib (= 4.1.0)
+  sublime_text_3 (= 1.0.1)
   sudo (= 1.0.0)
-  xquartz (= 1.1.0)
+  transmission (= 1.0.0)
+  virtualbox (= 1.0.9)
+  wget (= 1.0.0)
 
