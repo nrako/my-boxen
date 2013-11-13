@@ -56,7 +56,22 @@ github "sudo",       "1.0.0"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
+github "nvm",        "1.0.0"
+
 github "firefox",    "1.1.0"
 github "chrome",     "1.1.0"
-github "iterm2",     "1.0.0"
 github "opera",      "0.3.0"
+
+github "iterm2",     "1.0.0"
+github "licecap",    "1.0.0"
+github "skype",      "1.0.6"
+github "mplayerx",   "1.0.1"
+github "alfred",     "1.1.6"
+github "sublime_text_3",  "1.0.1",  :repo => "jozefizso/puppet-sublime_text_3"
+github "wget",       "1.0.0"
+github "transmission", "1.0.0"
+github "colloquy",    "1.0.0"
+github "virtualbox", "1.0.9"
+
+
+#github "dockutil",  "0.1.2"
