@@ -46,6 +46,14 @@ class people::nrako::dotfiles {
     require => Repository["dotfiles"],
   }
 
+  file { "${homedir}/.oh-my-zsh/custom":
+    ensure  => link,
+    force => true,
+    recurse => true,
+    target  => "${::boxen_srcdir}/dotfiles/.oh-my-zsh/custom",
+    require => Repository["dotfiles"],
+  }
+
   # file { "${homedir}/.synergy.conf":
   #   ensure  => link,
   #   target  => "${::boxen_srcdir}/dotfiles/synergy.conf",

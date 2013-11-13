@@ -75,6 +75,6 @@ github "virtualbox", "1.0.9"
 github "vim",        "1.0.5"
 github "github_for_mac", "1.0.1"
 github "osx",            "2.0.0"
-
+github "ohmyzsh",    "0.0.1",       :repo => "haelmy/puppet-ohmyzsh"
 
 #github "dockutil",  "0.1.2"

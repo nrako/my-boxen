@@ -10,6 +10,7 @@ class people::nrako::apps {
 
   # others
   include alfred
+  include ohmyzsh
 
   # dev
   include sublime_text_3
