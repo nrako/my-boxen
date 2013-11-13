@@ -36,13 +36,13 @@ class people::nrako::dotfiles {
 
   file { "${homedir}/.gitignore":
     ensure  => link,
-    target  => "${::boxen_srcdir}/dotfiles/gitignore",
+    target  => "${::boxen_srcdir}/dotfiles/.gitignore",
     require => Repository["dotfiles"],
   }
 
   file { "${homedir}/.zshrc":
     ensure  => link,
-    target  => "${::boxen_srcdir}/dotfiles/zshrc",
+    target  => "${::boxen_srcdir}/dotfiles/.zshrc",
     require => Repository["dotfiles"],
   }
 
