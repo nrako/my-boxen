@@ -1,7 +1,5 @@
 class people::nrako::apps {
 
-  notify { 'class people::nrako::apps declared': }
-
   # browsers
   include firefox
   include chrome
@@ -10,6 +8,8 @@ class people::nrako::apps {
 
   # others
   include alfred
+  include ohmyzsh
+  include ukulele # ukelele
 
   # dev
   include sublime_text_3
@@ -18,6 +18,7 @@ class people::nrako::apps {
   #include vim
   include wget
   include nvm
+  include github_for_mac
 
   # virtualization
   include virtualbox

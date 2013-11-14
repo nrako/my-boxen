@@ -164,6 +164,11 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: haelmy/puppet-ohmyzsh
+  specs:
+    ohmyzsh (0.0.1)
+
+GITHUBTARBALL
   remote: jozefizso/puppet-sublime_text_3
   specs:
     sublime_text_3 (1.0.1)
@@ -199,6 +204,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.5.0)
   nvm (= 1.0.0)
+  ohmyzsh (= 0.0.1)
   openssl (= 1.0.0)
   opera (= 0.3.0)
   osx (= 2.0.0)

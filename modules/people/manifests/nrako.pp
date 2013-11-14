@@ -1,7 +1,5 @@
 class people::nrako {
 
-  notify { 'class people::nrako declared': }
-
   include people::nrako::apps
   include people::nrako::dotfiles
   #include people::nrako::git

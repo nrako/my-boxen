@@ -1,7 +1,5 @@
 class people::nrako::dotfiles {
 
-  notify { 'class people::nrako::dotfiles declared': }
-
   repository {
     "dotfiles":
       source   => 'nrako/dotfiles',
@@ -43,6 +41,14 @@ class people::nrako::dotfiles {
   file { "${homedir}/.zshrc":
     ensure  => link,
     target  => "${::boxen_srcdir}/dotfiles/.zshrc",
+    require => Repository["dotfiles"],
+  }
+
+  file { "${homedir}/.oh-my-zsh/custom":
+    ensure  => link,
+    force => true,
+    recurse => true,
+    target  => "${::boxen_srcdir}/dotfiles/.oh-my-zsh/custom",
     require => Repository["dotfiles"],
   }
 

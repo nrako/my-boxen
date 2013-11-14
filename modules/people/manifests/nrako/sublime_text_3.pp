@@ -1,13 +1,11 @@
 class people::nrako::sublime_text_3 {
 
-  notify { 'class people::nrako::sublime_text_3 declared': }
-
   $base = "/Users/${::boxen_user}/Library/Application Support"
 
   # exec { 'Idempotent creation of User preferences directory':
   #   command => "mkdir -p '${base}/Sublime Text 2/Packages/User'"
   # }
-  
+
   # file { "${base}/Sublime Text 2/Packages/User/Preferences.sublime-settings":
   #   ensure  => link,
   #   target  => "${::boxen_srcdir}/dotfiles/sublime_text_3/Packages/User/Preferences.sublime-settings",
