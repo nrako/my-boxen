@@ -9,6 +9,7 @@ class people::nrako::apps {
   # others
   include alfred
   include ohmyzsh
+  include ukulele # ukelele
 
   # dev
   include sublime_text_3
