@@ -80,4 +80,7 @@ class people::nrako::osx {
 
   # Prevent Time Machine from prompting to use new hard drives as backup volume
   # defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
+
+  # ressources
+  #https://github.com/seanknox/my-boxen/blob/master/modules/people/manifests/seanknox/config.pp
 }
