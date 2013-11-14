@@ -1,7 +1,5 @@
 class people::nrako::dotfiles {
 
-  notify { 'class people::nrako::dotfiles declared': }
-
   repository {
     "dotfiles":
       source   => 'nrako/dotfiles',

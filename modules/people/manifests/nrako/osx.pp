@@ -1,7 +1,5 @@
 class people::nrako::osx {
 
-  notify { 'class people::nrako::osx declared': }
-
   # include osx::dock::2d
   # include osx::dock::dim_hidden_apps
 

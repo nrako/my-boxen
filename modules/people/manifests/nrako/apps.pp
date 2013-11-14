@@ -1,7 +1,5 @@
 class people::nrako::apps {
 
-  notify { 'class people::nrako::apps declared': }
-
   # browsers
   include firefox
   include chrome
