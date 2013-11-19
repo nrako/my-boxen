@@ -19,42 +19,14 @@ class people::nrako::osx {
 
   include osx::finder::empty_trash_securely
 
-  # TODOS
+  include osx_config::dashboard::disable_inspace
+  include osx_config::dashboard::disable_autorearrange
+  class {'osx_config::trackpad::enable_clicking':
+    dragging => true,
+  }
+  include osx_config::disable_boot_chime
 
-  # boxen::osx_defaults {
-  #   'Disable the dashboard':
-  #     ensure => present,
-  #     key    => 'mcx-disabled',
-  #     domain => 'com.apple.dashboard',
-  #     value  => 'true',
-  #     type   => 'bool',
-  #     user   => $::boxen_user;
-
-  #   'Don’t show Dashboard as a Space':
-  #     ensure => present,
-  #     key    => 'dashboard-in-overlay',
-  #     domain => 'com.apple.dock',
-  #     value  => 'true',
-  #     type   => 'bool',
-  #     user   => $::boxen_user;
-  # }
-
-  # Trackpad: enable tap to click for this user and for the login screen
-  # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
-  # defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-  # defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
-
-  # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
-  # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadFourFingerVertSwipeGesture -int 2
-  # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadTwoFingerDoubleTapGesture -int 1
-  # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerTapGesture -int 2
-  # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadTwoFingerFromRightEdgeSwipeGesture -int 3
-
-  # Don’t show Dashboard as a Space
-  # defaults write com.apple.dock dashboard-in-overlay -bool true
-
-  # Don’t automatically rearrange Spaces based on most recent use
-  # defaults write com.apple.dock mru-spaces -bool false
+  # TODO removd app quarantaine unidentifed developer
 
   # Make Dock icons of hidden applications translucent
   # defaults write com.apple.dock showhidden -bool true
@@ -83,4 +55,7 @@ class people::nrako::osx {
 
   # ressources
   #https://github.com/seanknox/my-boxen/blob/master/modules/people/manifests/seanknox/config.pp
+
+
+  # https://github.com/mosen/puppet-osx-powermgmt
 }
