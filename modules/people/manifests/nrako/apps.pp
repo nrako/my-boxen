@@ -17,7 +17,7 @@ class people::nrako::apps {
   # waiting for vim + vundle instead of pathogene https://github.com/JHaals/puppet-vim/commit/c2404af5fc86a2feb3fa906f77fe5dded3a995af
   #include vim
   include wget
-  include nvm
+  #include nvm
   include github_for_mac
 
   # virtualization
