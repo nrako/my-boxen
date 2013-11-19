@@ -41,4 +41,8 @@ class people::nrako::apps {
   #include spotify
   #include LudereSolutions/puppet-parallels
 
+
+
+  include application_settings::iterm2
+
 }
