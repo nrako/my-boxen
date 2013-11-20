@@ -13,6 +13,7 @@ class people::nrako::apps {
 
   # dev
   include sublime_text_3
+  include people::nrako::sublime_text_3
   #include sublime_text_3::package_control
   # waiting for vim + vundle instead of pathogene https://github.com/JHaals/puppet-vim/commit/c2404af5fc86a2feb3fa906f77fe5dded3a995af
   #include vim

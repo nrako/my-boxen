@@ -7,7 +7,6 @@ WIP!!!
 - export and setup https://github.com/chriskempson/tomorrow-theme for iTerm2 and SublimeText3
 - setup keyboard layout Swiss FR DEV in prefs
 - setup cmd+space for alfred
-- fix issue with sublime_text_3::package
 - fix issue with ruby 1.8
 - test everything from a clean VM
 
