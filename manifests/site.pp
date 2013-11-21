@@ -67,19 +67,17 @@ node default {
   #include nodejs::v0_4
   #include nodejs::v0_6
   #include nodejs::v0_8
-  #include nodejs::v0_10
+  include nodejs::v0_10
+  #include nodejs::v0_11
+  nodejs::version { 'v0.11.9': }
 
   # default ruby versions
   include ruby::1_8_7
-  #include ruby::1_9_2
+  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
 
-  include iterm2::stable
-  include licecap
-  include skype
-
-  # common, useful brew packages
+  # common, useful packages
   package {
     [
       'ack',

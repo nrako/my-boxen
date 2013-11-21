@@ -1,5 +1,9 @@
 class people::nrako::apps {
 
+  include iterm2::stable
+  include licecap
+  include skype
+
   # browsers
   include firefox
   include chrome
