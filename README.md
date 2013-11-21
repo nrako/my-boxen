@@ -9,6 +9,7 @@ WIP!!!
 - setup cmd+space for alfred
 - fix issue with ruby 1.8
 - test everything from a clean VM
+- setup my fonts? Source Code Pro... ?
 
 ...
 
