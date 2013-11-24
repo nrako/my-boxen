@@ -34,7 +34,7 @@ github "boxen", "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "dnsmasq",    "1.0.0"
+#github "dnsmasq",    "1.0.0"
 github "foreman",    "1.1.0"
 github "gcc",        "2.0.99  "
 github "git",        "1.3.6"
@@ -56,7 +56,7 @@ github "xquartz",    "1.1.1"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "nvm",        "1.0.0"
+#github "nvm",        "1.0.0"
 
 github "firefox",    "1.1.4"
 github "chrome",     "1.1.2"
