@@ -75,7 +75,7 @@ your boxen:
 ```
 sudo mkdir -p /opt/boxen
 sudo chown ${USER}:staff /opt/boxen
-git clone https://github.com/boxen/our-boxen /opt/boxen/repo
+git clone git@github.com:nrako/my-boxen.git /opt/boxen/repo
 cd /opt/boxen/repo
 git remote rm origin
 git remote add origin git@github.com:nrako/my-boxen.git
